@@ -1,0 +1,27 @@
+{
+    "http": {
+        "port": 10000
+    },
+    "mongo": {
+        "uri": "mongodb://localhost:27017/subathon-stats?retryWrites=true&w=majority"
+    },
+    "twitch": {
+        "streamer": "<streamer's twitch channel name>",
+        "bot": {
+            "options": { "debug": false },
+            "identity": {
+                "username": "<bot username>",
+                "password": "<bot token>"
+            },
+            "channels": [ "<streamer's twitch channel name>" ],
+            "connection": {
+                "reconnect": true,
+                "secure": true
+            }
+        },
+        "api": {
+            "client_id": "<twitch api app client id>",
+            "client_secret": "<twitch api app client secret>"
+        }
+    }
+}

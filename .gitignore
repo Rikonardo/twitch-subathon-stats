@@ -1,0 +1,5 @@
+subathon-backend/node_modules
+subathon-backend/config/_default.json
+subathon-frontend/node_modules
+subathon-frontend/dist
+.idea
